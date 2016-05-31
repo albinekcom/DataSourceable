@@ -18,7 +18,7 @@ struct MovieTitleDataSource: TableViewDataSourceable, DataContaining {
 
     func configure(cell cell: UITableViewCell, forItem item: String, inView view: UITableView) -> UITableViewCell {
         cell.textLabel?.text = item
-    return cell
+        return cell
     }
 }
 
